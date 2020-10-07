@@ -1,0 +1,19 @@
+<template>
+    <div>
+        <header class="header">
+        </header>
+        <slot/>
+    </div>
+</template>
+<script>
+export default {
+    name:'DefaultLayout'
+}
+</script>
+<style scoped>
+.header{
+    width: 100%;
+    height: 35px;
+    background-color: #350d36;
+}
+</style>
